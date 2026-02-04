@@ -1,42 +1,43 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 const applications = [
   {
     title: "Floor Finishes",
     description: "Seamless floors over tiles, screed, or concrete. Perfect for living areas, kitchens, and commercial spaces.",
-    image: "/images/applications/floors.jpg",
+    image: "/images/gallery/elephant-skin-after.jpg",
     href: "/gallery?filter=floor",
   },
   {
     title: "Wall Finishes",
     description: "Create stunning feature walls or cover entire rooms. Multiple sealer options for different needs.",
-    image: "/images/applications/walls.jpg",
+    image: "/images/colours/carboncloud.jpg",
     href: "/gallery?filter=wall",
   },
   {
     title: "Bathrooms & Showers",
     description: "Waterproof finishes with heavy-duty PU sealer. Transform dated bathrooms into modern retreats.",
-    image: "/images/applications/bathrooms.jpg",
+    image: "/images/gallery/mushroom-after.jpg",
     href: "/gallery?filter=bathroom",
   },
   {
     title: "Outdoor & Patios",
     description: "UV-stable, durable finishes for patios, verandas, and entertainment areas. Non-slip options available.",
-    image: "/images/applications/outdoor.jpg",
+    image: "/images/gallery/beach-after.jpg",
     href: "/gallery?filter=outdoor",
   },
   {
     title: "Pool Surrounds",
     description: "Cool underfoot, non-slip, and stunning. The perfect finish for your pool area.",
-    image: "/images/applications/pools.jpg",
+    image: "/images/gallery/beach-before.jpg",
     href: "/gallery?filter=pool",
   },
   {
     title: "Countertops & Tables",
     description: "Unique surfaces for kitchen counters, tables, and custom furniture pieces.",
-    image: "/images/applications/countertops.jpg",
+    image: "/images/colours/aged-well.png",
     href: "/colours",
   },
 ];
@@ -63,8 +64,17 @@ export function Applications() {
               href={app.href}
               className="group relative overflow-hidden rounded-2xl aspect-[4/3] bg-[var(--bg-card)] border border-white/[0.06]"
             >
-              {/* Gradient background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary)]/30 to-[var(--accent)]/20 opacity-50 group-hover:opacity-80 transition-opacity" />
+              {/* Image */}
+              <Image
+                src={app.image}
+                alt={app.title}
+                fill
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+
+              {/* Image tint */}
+              <div className="absolute inset-0 bg-black/25" />
               
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />

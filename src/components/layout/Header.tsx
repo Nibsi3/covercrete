@@ -16,30 +16,20 @@ const navLinks = [
 
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 pt-6">
       {/* Desktop Pill Navigation */}
       <nav
-        className="hidden lg:block mx-auto transition-all duration-[600ms] ease-[cubic-bezier(.16,1,.3,1)]"
-        style={{ width: isHovered ? "100%" : "720px", maxWidth: "1200px" }}
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
+        className="hidden lg:block mx-auto w-full max-w-[1200px] group"
       >
         <div
-          className={`flex items-center transition-all duration-[600ms] ease-[cubic-bezier(.16,1,.3,1)] bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-full ${
-            isHovered
-              ? "px-11 py-4 shadow-[0_30px_60px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.08)]"
-              : "px-6 py-3.5"
-          }`}
+          className="flex items-center w-full max-w-[720px] mx-auto transition-all duration-700 ease-[cubic-bezier(.22,1,.36,1)] bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-full px-6 py-3.5 group-hover:max-w-[1200px] group-hover:px-11 group-hover:py-4 group-hover:shadow-[0_30px_60px_rgba(0,0,0,0.35),inset_0_1px_0_rgba(255,255,255,0.08)]"
         >
           {/* Logo */}
           <Link
             href="/"
-            className={`transition-transform duration-[600ms] ease-[cubic-bezier(.16,1,.3,1)] ${
-              isHovered ? "-translate-x-4" : ""
-            }`}
+            className="transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:-translate-x-4"
           >
             <Image
               src="/images/logo_white.png"
@@ -69,9 +59,7 @@ export function Header() {
           {/* CTA */}
           <Link
             href="/contact"
-            className={`bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white px-5 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-all duration-[600ms] ease-[cubic-bezier(.16,1,.3,1)] hover:shadow-[0_10px_30px_var(--accent-glow)] ${
-              isHovered ? "translate-x-4" : ""
-            }`}
+            className="bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white px-5 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-[transform,box-shadow] duration-700 ease-[cubic-bezier(.22,1,.36,1)] hover:shadow-[0_10px_30px_var(--accent-glow)] group-hover:translate-x-4"
           >
             Get a Quote
           </Link>

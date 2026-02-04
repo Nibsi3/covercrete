@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { galleryItems } from "@/data/gallery";
@@ -33,8 +34,17 @@ export function GalleryPreview() {
               key={item.id}
               className="group relative overflow-hidden rounded-2xl aspect-[4/3] bg-[var(--bg-card)] border border-white/[0.06] cursor-pointer"
             >
-              {/* Gradient background */}
-              <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary)]/40 to-[var(--accent)]/20 opacity-60 group-hover:opacity-80 transition-opacity" />
+              {/* Image */}
+              <Image
+                src={item.afterImage}
+                alt={item.title}
+                fill
+                className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+              />
+
+              {/* Image tint */}
+              <div className="absolute inset-0 bg-black/25" />
               
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
