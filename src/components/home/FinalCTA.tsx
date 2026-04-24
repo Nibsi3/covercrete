@@ -12,10 +12,10 @@ export function FinalCTA() {
         <div className="text-center">
           {/* Headline */}
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-            Ready to Transform Your Space?
+            FINAL_CTA_HEADLINE
           </h2>
           <p className="text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-10">
-            Get a free quote for your project. We'll assess your space and provide a detailed cost breakdown.
+            FINAL_CTA_SUBTITLE
           </p>
 
           {/* CTAs */}
@@ -24,7 +24,7 @@ export function FinalCTA() {
               href="/contact"
               className="group flex items-center gap-3 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white px-8 py-4 rounded-full text-lg font-medium transition-all hover:shadow-[0_20px_40px_var(--accent-glow)] hover:scale-105"
             >
-              Get a Free Quote
+              FINAL_CTA_PRIMARY_BUTTON
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
             <a
@@ -34,23 +34,23 @@ export function FinalCTA() {
               className="flex items-center gap-3 bg-white/[0.05] border border-white/[0.1] text-white px-8 py-4 rounded-full text-lg font-medium transition-all hover:bg-white/[0.1]"
             >
               <MessageCircle className="h-5 w-5" />
-              WhatsApp Us
+              FINAL_CTA_SECONDARY_BUTTON
             </a>
           </div>
 
           {/* Contact info */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-[var(--text-muted)]">
-            <a href="tel:+27725861495" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="tel:CONTACT_PHONE_1" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span>Ryan: 072 586 1495</span>
+              <span>CONTACT_NAME_1: CONTACT_PHONE_1_DISPLAY</span>
             </a>
-            <a href="tel:+27713073631" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="tel:CONTACT_PHONE_2" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span>Hein: 071 307 3631</span>
+              <span>CONTACT_NAME_2: CONTACT_PHONE_2_DISPLAY</span>
             </a>
-            <a href="tel:+27639434661" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="tel:CONTACT_PHONE_3" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span>Aaron (WC): 063 943 4661</span>
+              <span>CONTACT_NAME_3: CONTACT_PHONE_3_DISPLAY</span>
             </a>
           </div>
         </div>

@@ -5,26 +5,26 @@ const steps = [
   {
     icon: Camera,
     step: "01",
-    title: "Share Your Project",
-    description: "Send us photos and measurements of your space. Tell us about the surfaces you want to cover.",
+    title: "STEP_1_TITLE",
+    description: "STEP_1_DESCRIPTION",
   },
   {
     icon: ClipboardCheck,
     step: "02",
-    title: "Site Assessment",
-    description: "We'll arrange a site visit to assess prep work needed and provide an accurate quote.",
+    title: "STEP_2_TITLE",
+    description: "STEP_2_DESCRIPTION",
   },
   {
     icon: Paintbrush,
     step: "03",
-    title: "Professional Installation",
-    description: "Our skilled team applies Covercrete and sealer. Most projects take 3-15 days.",
+    title: "STEP_3_TITLE",
+    description: "STEP_3_DESCRIPTION",
   },
   {
     icon: CheckCircle,
     step: "04",
-    title: "Enjoy Your Space",
-    description: "Your transformed space is ready to use. We provide care instructions for lasting beauty.",
+    title: "STEP_4_TITLE",
+    description: "STEP_4_DESCRIPTION",
   },
 ];
 
@@ -35,10 +35,10 @@ export function HowItWorks() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            How It Works
+            HOW_IT_WORKS_SECTION_TITLE
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            From first contact to finished project, here's what to expect.
+            HOW_IT_WORKS_SECTION_SUBTITLE
           </p>
         </div>
 

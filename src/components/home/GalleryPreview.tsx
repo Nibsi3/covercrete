@@ -15,14 +15,14 @@ export function GalleryPreview() {
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              Our Work
+              GALLERY_SECTION_TITLE
             </h2>
             <p className="text-lg text-[var(--text-secondary)] max-w-xl">
-              See the transformation. Real projects from real clients across South Africa.
+              GALLERY_SECTION_SUBTITLE
             </p>
           </div>
           <Link href="/gallery" className="group flex items-center gap-2 text-[var(--primary-light)] font-medium hover:text-[var(--primary)] transition-colors">
-            View Full Gallery
+            GALLERY_BUTTON_TEXT
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </div>

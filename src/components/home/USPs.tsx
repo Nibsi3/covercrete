@@ -13,39 +13,33 @@ import {
 const usps = [
   {
     icon: Shield,
-    title: "Durable & Long-Lasting",
-    description:
-      "UV-stable sealers protect your finish for years. Suitable for high-traffic areas and outdoor use.",
+    title: "USP_1_TITLE",
+    description: "USP_1_DESCRIPTION",
   },
   {
     icon: Palette,
-    title: "14+ Colour Options",
-    description:
-      "From crisp whites to deep charcoals, find the perfect shade. Custom colours available on request.",
+    title: "USP_2_TITLE",
+    description: "USP_2_DESCRIPTION",
   },
   {
     icon: Clock,
-    title: "Quick Installation",
-    description:
-      "Most projects completed in 3-15 days. Minimal disruption to your home or business.",
+    title: "USP_3_TITLE",
+    description: "USP_3_DESCRIPTION",
   },
   {
     icon: Sparkles,
-    title: "Seamless Finish",
-    description:
-      "No grout lines, no joints. Create a continuous, modern look throughout your space.",
+    title: "USP_4_TITLE",
+    description: "USP_4_DESCRIPTION",
   },
   {
     icon: Hammer,
-    title: "No Demolition Needed",
-    description:
-      "Apply directly over tiles, screed, or plaster. Save time and money on removal.",
+    title: "USP_5_TITLE",
+    description: "USP_5_DESCRIPTION",
   },
   {
     icon: ThumbsUp,
-    title: "Expert Installation",
-    description:
-      "Professional teams in Gauteng, Cape Town & KZN. Quality workmanship guaranteed.",
+    title: "USP_6_TITLE",
+    description: "USP_6_DESCRIPTION",
   },
 ];
 
@@ -56,10 +50,10 @@ export function USPs() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Why Choose Covercrete?
+            USP_SECTION_TITLE
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            The smart choice for modern, durable surfaces that stand the test of time.
+            USP_SECTION_SUBTITLE
           </p>
         </div>
 

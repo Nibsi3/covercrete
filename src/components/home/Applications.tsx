@@ -5,40 +5,40 @@ import { ArrowRight } from "lucide-react";
 
 const applications = [
   {
-    title: "Floor Finishes",
-    description: "Seamless floors over tiles, screed, or concrete. Perfect for living areas, kitchens, and commercial spaces.",
-    image: "/images/gallery/elephant-skin-after.jpg",
-    href: "/gallery?filter=floor",
+    title: "APPLICATION_1_TITLE",
+    description: "APPLICATION_1_DESCRIPTION",
+    image: "APPLICATION_1_IMAGE",
+    href: "/gallery?filter=application1",
   },
   {
-    title: "Wall Finishes",
-    description: "Create stunning feature walls or cover entire rooms. Multiple sealer options for different needs.",
-    image: "/images/colours/carboncloud.jpg",
-    href: "/gallery?filter=wall",
+    title: "APPLICATION_2_TITLE",
+    description: "APPLICATION_2_DESCRIPTION",
+    image: "APPLICATION_2_IMAGE",
+    href: "/gallery?filter=application2",
   },
   {
-    title: "Bathrooms & Showers",
-    description: "Waterproof finishes with heavy-duty PU sealer. Transform dated bathrooms into modern retreats.",
-    image: "/images/gallery/mushroom-after.jpg",
-    href: "/gallery?filter=bathroom",
+    title: "APPLICATION_3_TITLE",
+    description: "APPLICATION_3_DESCRIPTION",
+    image: "APPLICATION_3_IMAGE",
+    href: "/gallery?filter=application3",
   },
   {
-    title: "Outdoor & Patios",
-    description: "UV-stable, durable finishes for patios, verandas, and entertainment areas. Non-slip options available.",
-    image: "/images/gallery/beach-after.jpg",
-    href: "/gallery?filter=outdoor",
+    title: "APPLICATION_4_TITLE",
+    description: "APPLICATION_4_DESCRIPTION",
+    image: "APPLICATION_4_IMAGE",
+    href: "/gallery?filter=application4",
   },
   {
-    title: "Pool Surrounds",
-    description: "Cool underfoot, non-slip, and stunning. The perfect finish for your pool area.",
-    image: "/images/gallery/beach-before.jpg",
-    href: "/gallery?filter=pool",
+    title: "APPLICATION_5_TITLE",
+    description: "APPLICATION_5_DESCRIPTION",
+    image: "APPLICATION_5_IMAGE",
+    href: "/gallery?filter=application5",
   },
   {
-    title: "Countertops & Tables",
-    description: "Unique surfaces for kitchen counters, tables, and custom furniture pieces.",
-    image: "/images/colours/aged-well.png",
-    href: "/colours",
+    title: "APPLICATION_6_TITLE",
+    description: "APPLICATION_6_DESCRIPTION",
+    image: "APPLICATION_6_IMAGE",
+    href: "/gallery?filter=application6",
   },
 ];
 
@@ -49,10 +49,10 @@ export function Applications() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            Applications
+            APPLICATIONS_SECTION_TITLE
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            Covercrete can be applied to almost any surface. Here are the most popular applications.
+            APPLICATIONS_SECTION_SUBTITLE
           </p>
         </div>
 

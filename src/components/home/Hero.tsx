@@ -20,22 +20,22 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--primary)]/10 border border-[var(--primary)]/20 mb-8">
             <span className="w-2 h-2 rounded-full bg-[var(--primary)] animate-pulse" />
-            <span className="text-sm text-[var(--primary-light)] font-medium">Premium Concrete Finishes</span>
+            <span className="text-sm text-[var(--primary-light)] font-medium">BUSINESS_TAGLINE_PLACEHOLDER</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white leading-[0.95] tracking-tight mb-8">
-            Surfaces That
+            HEADLINE_LINE_1
             <br />
             <span className="bg-gradient-to-r from-[var(--primary)] via-[var(--primary-light)] to-[var(--accent)] bg-clip-text text-transparent">
-              Speak Volumes
+              HEADLINE_LINE_2
             </span>
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-12 leading-relaxed">
-            Transform floors, walls, and surfaces with seamless cementitious finishes. 
-            No demolition. No mess. Just stunning results.
+            BUSINESS_DESCRIPTION_PLACEHOLDER. 
+            BENEFIT_STATEMENT_PLACEHOLDER.
           </p>
 
           {/* CTAs */}
@@ -44,7 +44,7 @@ export function Hero() {
               href="/contact"
               className="group flex items-center gap-3 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white px-8 py-4 rounded-full text-lg font-medium transition-all hover:shadow-[0_20px_40px_var(--accent-glow)] hover:scale-105"
             >
-              Get Your Free Quote
+              PRIMARY_CTA_TEXT
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
             <Link
@@ -52,23 +52,23 @@ export function Hero() {
               className="group flex items-center gap-3 bg-white/[0.05] border border-white/[0.1] text-white px-8 py-4 rounded-full text-lg font-medium transition-all hover:bg-white/[0.1]"
             >
               <Play className="h-5 w-5" />
-              View Our Work
+              SECONDARY_CTA_TEXT
             </Link>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
-              <div className="text-4xl sm:text-5xl font-bold text-white mb-2">500+</div>
-              <div className="text-sm text-[var(--text-muted)]">Projects Completed</div>
+              <div className="text-4xl sm:text-5xl font-bold text-white mb-2">STAT_1_NUMBER</div>
+              <div className="text-sm text-[var(--text-muted)]">STAT_1_LABEL</div>
             </div>
             <div className="text-center border-x border-white/[0.08]">
-              <div className="text-4xl sm:text-5xl font-bold text-white mb-2">14+</div>
-              <div className="text-sm text-[var(--text-muted)]">Colour Options</div>
+              <div className="text-4xl sm:text-5xl font-bold text-white mb-2">STAT_2_NUMBER</div>
+              <div className="text-sm text-[var(--text-muted)]">STAT_2_LABEL</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl sm:text-5xl font-bold text-white mb-2">10+</div>
-              <div className="text-sm text-[var(--text-muted)]">Years Experience</div>
+              <div className="text-4xl sm:text-5xl font-bold text-white mb-2">STAT_3_NUMBER</div>
+              <div className="text-sm text-[var(--text-muted)]">STAT_3_LABEL</div>
             </div>
           </div>
         </div>
