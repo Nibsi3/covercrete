@@ -17,7 +17,6 @@ export function LocalBusinessJsonLd({ type = "HomeAndConstructionBusiness" }: Lo
     address: {
       "@type": "PostalAddress",
       addressCountry: "ZA",
-      addressRegion: "North West",
     },
     areaServed: [
       {
@@ -33,13 +32,6 @@ export function LocalBusinessJsonLd({ type = "HomeAndConstructionBusiness" }: Lo
         name: "KwaZulu-Natal",
       },
     ],
-    priceRange: "R280 - R555 per m²",
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "08:00",
-      closes: "17:00",
-    },
     sameAs: [],
     hasOfferCatalog: {
       "@type": "OfferCatalog",

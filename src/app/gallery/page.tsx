@@ -7,11 +7,7 @@ import { X } from "lucide-react";
 
 const filters: Array<GalleryItem["application"] | "all"> = [
   "all",
-  "floor",
-  "wall",
-  "bathroom",
-  "outdoor",
-  "pool",
+  ...new Set(galleryItems.map((item) => item.application)),
 ];
 
 export default function GalleryPage() {

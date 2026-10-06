@@ -65,7 +65,6 @@ function ContactPageInner() {
     consent: false,
   }));
 
-  const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (
@@ -81,14 +80,22 @@ function ContactPageInner() {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const enquiry = [
+    "Hi, I would like to discuss a Covercrete project.",
+    `Name: ${formData.name}`,
+    `Phone: ${formData.phone}`,
+    `Email: ${formData.email}`,
+    `Location: ${formData.city}`,
+    `Project: ${formData.projectType}`,
+    `Surface: ${formData.surfaceType}`,
+    `Area: ${formData.size} m²`,
+    `Colour: ${colours.find((colour) => colour.id === formData.colour)?.name || "To be decided"}`,
+    `Timeline: ${formData.timeline}`,
+    formData.message,
+  ].join("\n");
+
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-
-    setIsSubmitting(false);
     setIsSubmitted(true);
   };
 
@@ -100,22 +107,21 @@ function ContactPageInner() {
             <CheckCircle className="h-10 w-10 text-green-600" />
           </div>
           <h1 className="text-3xl font-bold text-[var(--gray-900)] mb-4">
-            Thank You!
+            Your Enquiry Is Ready
           </h1>
           <p className="text-[var(--gray-600)] mb-8">
-            We've received your enquiry and will get back to you within 24
-            hours. In the meantime, feel free to reach out via WhatsApp for
-            faster response.
+            Open WhatsApp to review and send your message to Covercrete.
+            Your enquiry has not been sent yet.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/27725861495?text=Hi%2C%20I%20just%20submitted%20a%20quote%20request%20on%20your%20website"
+              href={`https://wa.me/27725861495?text=${encodeURIComponent(enquiry)}`}
               target="_blank"
               rel="noopener noreferrer"
             >
               <Button variant="default" className="w-full sm:w-auto">
                 <MessageCircle className="h-5 w-5" />
-                WhatsApp Us
+                Open WhatsApp
               </Button>
             </a>
             <Link href="/gallery">
@@ -139,8 +145,8 @@ function ContactPageInner() {
               Get a Free Quote
             </h1>
             <p className="text-lg text-[var(--gray-600)] max-w-2xl mx-auto">
-              Tell us about your project and we'll provide a detailed cost
-              estimate. Most quotes are returned within 24 hours.
+              Tell us about your project to prepare an enquiry.
+              You can review and send it to Covercrete via WhatsApp.
             </p>
           </div>
         </div>
@@ -152,7 +158,7 @@ function ContactPageInner() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             {/* Form */}
             <div className="lg:col-span-2">
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6 text-[var(--gray-900)]">
                 {/* Contact Details */}
                 <div>
                   <h3 className="text-lg font-semibold text-[var(--gray-900)] mb-4">
@@ -377,7 +383,7 @@ function ContactPageInner() {
                         Have photos of your space?
                       </p>
                       <p className="text-sm text-[var(--gray-500)]">
-                        Send them via WhatsApp after submitting this form for a
+                        Attach them in WhatsApp when sending your enquiry for a
                         more accurate quote.
                       </p>
                     </div>
@@ -415,20 +421,10 @@ function ContactPageInner() {
                 <Button
                   type="submit"
                   size="lg"
-                  disabled={isSubmitting}
                   className="w-full sm:w-auto"
                 >
-                  {isSubmitting ? (
-                    <>
-                      <span className="animate-spin">⏳</span>
-                      Sending...
-                    </>
-                  ) : (
-                    <>
-                      <Send className="h-5 w-5" />
-                      Send Enquiry
-                    </>
-                  )}
+                  <Send className="h-5 w-5" />
+                  Prepare WhatsApp Enquiry
                 </Button>
               </form>
             </div>

@@ -12,6 +12,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://covercrete.vercel.app"),
   title: {
     default: "Covercrete | Premium Decorative Concrete Finishes in South Africa",
     template: "%s | Covercrete",
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
       "Transform your floors, walls, and surfaces with seamless cementitious screed finishes. Serving Gauteng, Cape Town & KZN.",
     images: [
       {
-        url: "/images/og-image.jpg",
+        url: "/images/gallery/elephant-skin-after.jpg",
         width: 1200,
         height: 630,
         alt: "Covercrete Decorative Concrete Finishes",
@@ -54,7 +55,7 @@ export const metadata: Metadata = {
     title: "Covercrete | Premium Decorative Concrete Finishes",
     description:
       "Transform your floors, walls, and surfaces with seamless cementitious screed finishes.",
-    images: ["/images/og-image.jpg"],
+    images: ["/images/gallery/elephant-skin-after.jpg"],
   },
   robots: {
     index: true,

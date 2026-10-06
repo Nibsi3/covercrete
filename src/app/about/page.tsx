@@ -14,22 +14,15 @@ import {
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about Covercrete - South Africa's premium decorative concrete finish specialists. Made in our North West factory, serving Gauteng, Cape Town & KZN.",
+    "Learn about Covercrete - South Africa's premium decorative concrete finish specialists. Made in our factory, serving Gauteng, Cape Town & KZN.",
 };
-
-const stats = [
-  { value: "10+", label: "Years Experience" },
-  { value: "500+", label: "Projects Completed" },
-  { value: "14+", label: "Colour Options" },
-  { value: "3", label: "Regional Teams" },
-];
 
 const values = [
   {
     icon: Factory,
     title: "Made in South Africa",
     description:
-      "Our product is manufactured in our factory in the North West Province, ensuring quality control and supporting local industry.",
+      "Our product is made to order in our factory for each project.",
   },
   {
     icon: Users,
@@ -105,7 +98,7 @@ export default function AboutPage() {
               Covercrete is a cementitious screed that can adhere to a variety
               of surfaces. From floors to walls, bathrooms to pool surrounds, we
               help South Africans create beautiful, durable spaces. Our product
-              is made to order in our factory in the North West, with
+              is made to order in our factory, with
               representation in Gauteng, Cape Town and KZN.
             </p>
             <div className="flex flex-wrap gap-4">
@@ -129,22 +122,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="py-12 bg-[var(--primary)]">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-white mb-1">
-                  {stat.value}
-                </div>
-                <div className="text-white/70 text-sm">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* What is Covercrete */}
       <section className="py-20 bg-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -161,8 +138,7 @@ export default function AboutPage() {
                   and even table tops.
                 </p>
                 <p>
-                  Our product is made to order in our factory in the North West
-                  Province.
+                  Our product is made to order in our factory.
                 </p>
                 <p>
                   Unlike traditional tiles or paint, Covercrete creates a
@@ -173,7 +149,7 @@ export default function AboutPage() {
                 <p>
                   Our product can be installed directly over tiles (following
                   our installation guidelines), self-levelling screed floors, or
-                  Rhinolite plastered walls. With over 14 colour options and
+                  Rhinolite plastered walls. With a range of colour options and
                   custom colours available, you can achieve exactly the look you
                   want.
                 </p>
@@ -211,7 +187,7 @@ export default function AboutPage() {
               Why Choose Us
             </h2>
             <p className="text-lg text-[var(--gray-600)] max-w-2xl mx-auto">
-              We're committed to quality, craftsmanship, and customer
+              We are committed to quality, craftsmanship, and customer
               satisfaction.
             </p>
           </div>
@@ -244,7 +220,7 @@ export default function AboutPage() {
               Our Process
             </h2>
             <p className="text-lg text-[var(--gray-600)] max-w-2xl mx-auto">
-              From first contact to finished project, here's how we work.
+              From first contact to finished project, here is how we work.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -276,7 +252,7 @@ export default function AboutPage() {
             Ready to Transform Your Space?
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
-            Get in touch for a free quote. We'll help you choose the perfect
+            Get in touch for a free quote. We can help you choose the perfect
             colour and finish for your project.
           </p>
           <Link href="/contact">

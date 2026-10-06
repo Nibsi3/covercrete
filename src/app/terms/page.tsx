@@ -70,7 +70,7 @@ export default function TermsPage() {
               6. Limitation of Liability
             </h2>
             <p className="mb-4">
-              Covercrete's liability is limited to the value of the services or
+              Covercrete&apos;s liability is limited to the value of the services or
               products provided. We are not liable for consequential damages.
             </p>
 

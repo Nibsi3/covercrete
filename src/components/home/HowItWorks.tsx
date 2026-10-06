@@ -5,26 +5,26 @@ const steps = [
   {
     icon: Camera,
     step: "01",
-    title: "STEP_1_TITLE",
-    description: "STEP_1_DESCRIPTION",
+    title: "Share Your Project",
+    description: "Get in touch with your location, surface type and area. Photos help explain what you have in mind.",
   },
   {
     icon: ClipboardCheck,
     step: "02",
-    title: "STEP_2_TITLE",
-    description: "STEP_2_DESCRIPTION",
+    title: "Assess the Surface",
+    description: "A site visit establishes the preparation needed and confirms installation costs.",
   },
   {
     icon: Paintbrush,
     step: "03",
-    title: "STEP_3_TITLE",
-    description: "STEP_3_DESCRIPTION",
+    title: "Choose Your Finish",
+    description: "Explore the colours and choose the appropriate wall finish or floor sealer.",
   },
   {
     icon: CheckCircle,
     step: "04",
-    title: "STEP_4_TITLE",
-    description: "STEP_4_DESCRIPTION",
+    title: "Prepare and Apply",
+    description: "Follow the installation guidelines for surface preparation, application and sealing.",
   },
 ];
 
@@ -35,10 +35,10 @@ export function HowItWorks() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            HOW_IT_WORKS_SECTION_TITLE
+            Plan Your Transformation
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            HOW_IT_WORKS_SECTION_SUBTITLE
+            Start with your surface and finish requirements, then confirm the details with Covercrete.
           </p>
         </div>
 

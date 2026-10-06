@@ -13,33 +13,33 @@ import {
 const usps = [
   {
     icon: Shield,
-    title: "USP_1_TITLE",
-    description: "USP_1_DESCRIPTION",
+    title: "Sealed for Your Space",
+    description: "Choose residential, medium or heavy-duty polyurethane sealers to suit the application.",
   },
   {
     icon: Palette,
-    title: "USP_2_TITLE",
-    description: "USP_2_DESCRIPTION",
+    title: "Colour Your Way",
+    description: "Explore the colour range, with custom colours available on request.",
   },
   {
     icon: Clock,
-    title: "USP_3_TITLE",
-    description: "USP_3_DESCRIPTION",
+    title: "Made to Order",
+    description: "Covercrete is prepared to order in the factory for your project.",
   },
   {
     icon: Sparkles,
-    title: "USP_4_TITLE",
-    description: "USP_4_DESCRIPTION",
+    title: "A Seamless Finish",
+    description: "A cementitious screed system for a continuous finish on floors, walls, ceilings and table tops.",
   },
   {
     icon: Hammer,
-    title: "USP_5_TITLE",
-    description: "USP_5_DESCRIPTION",
+    title: "Over Existing Surfaces",
+    description: "Apply over tiles, self-level screed or Rhinolite walls following the installation guidelines.",
   },
   {
     icon: ThumbsUp,
-    title: "USP_6_TITLE",
-    description: "USP_6_DESCRIPTION",
+    title: "Installation or DIY",
+    description: "Discuss professional installation or choose a kit with liquid base, cement and colour sealer.",
   },
 ];
 
@@ -50,10 +50,10 @@ export function USPs() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            USP_SECTION_TITLE
+            Finishes That Fit Your Space
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            USP_SECTION_SUBTITLE
+            Choose the surface, colour and sealer combination that works for your project.
           </p>
         </div>
 

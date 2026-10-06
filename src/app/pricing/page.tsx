@@ -7,31 +7,31 @@ import { ArrowRight, Check, Info } from "lucide-react";
 export const metadata: Metadata = {
   title: "Pricing Guide",
   description:
-    "Covercrete pricing guide. Installation over tiles from R510-R555 per m² (ex VAT). Installation over smooth surfaces from R405-R447 per m² (ex VAT). DIY kits from R1,060 (incl VAT).",
+    "Covercrete pricing guide. Installation over tiles from R540-R590 per m² (ex VAT). Installation over smooth surfaces from R420-R475 per m² (ex VAT). DIY kits from R1,060 (incl VAT).",
 };
 
 const installationPricing = [
   {
     surface: "Over Tiles",
-    priceRange: "R510 - R555",
+    priceRange: "R540 - R590",
     unit: "per m² ex VAT",
     note: "Region dependent",
   },
   {
     surface: "Over Smooth Surface",
-    priceRange: "R405 - R447",
+    priceRange: "R420 - R475",
     unit: "per m² ex VAT",
     note: "Self-level screed or Rhinolite",
   },
   {
     surface: "Walls (No Sealer)",
-    priceRange: "R250 - R280",
+    priceRange: "Contact for quote",
     unit: "per m² ex VAT",
     note: "Raw, sanded finish",
   },
   {
     surface: "Walls (Colour Sealer)",
-    priceRange: "R280 - R300",
+    priceRange: "Contact for quote",
     unit: "per m² ex VAT",
     note: "Sheen finish, wipeable",
   },
@@ -114,12 +114,12 @@ const faqs = [
   {
     question: "What affects the price?",
     answer:
-      "The main factors are: surface type (tiles cost more than smooth surfaces), area size (larger areas get better rates), sealer type, and location. A site visit helps us provide an accurate quote.",
+      "The main factors are: surface type (tiles cost more than smooth surfaces), area size, sealer type, and location. A site visit helps us provide an accurate quote.",
   },
   {
     question: "What's the minimum project size?",
     answer:
-      "Minimum 20m² for smooth surfaces, 45m² for tile coverage. This ensures the project is economically viable for both parties.",
+      "Minimum 30m² for smooth surfaces, 45m² for tile coverage. This ensures the project is economically viable for both parties.",
   },
   {
     question: "Are there additional costs?",
@@ -213,7 +213,7 @@ export default function PricingPage() {
                 Minimum Charge
               </div>
               <div className="text-sm text-[var(--gray-600)]">
-                20m² over smooth surfaces
+                30m² over smooth surfaces
               </div>
               <div className="text-sm text-[var(--gray-600)]">45m² over tiles</div>
             </div>
@@ -289,7 +289,7 @@ export default function PricingPage() {
               >
                 {kit.popular && (
                   <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 bg-[var(--primary)] text-white text-xs font-semibold rounded-full">
-                    Most Popular
+                    Large Kit
                   </div>
                 )}
                 <h3 className="text-xl font-semibold text-[var(--gray-900)] mb-2">
@@ -483,8 +483,8 @@ export default function PricingPage() {
             Get an Accurate Quote
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
-            Every project is unique. Share your details and we'll provide a
-            tailored quote within 24 hours.
+            Every project is unique. Share your details with Covercrete to
+            discuss a quote based on your surface and preparation requirements.
           </p>
           <Link href="/contact">
             <Button size="xl" variant="white">

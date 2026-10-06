@@ -2,7 +2,6 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { galleryItems } from "@/data/gallery";
 
 export function GalleryPreview() {
@@ -15,14 +14,14 @@ export function GalleryPreview() {
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-12">
           <div>
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              GALLERY_SECTION_TITLE
+              See the Finish
             </h2>
             <p className="text-lg text-[var(--text-secondary)] max-w-xl">
-              GALLERY_SECTION_SUBTITLE
+              Explore before and after images and find inspiration for your space.
             </p>
           </div>
           <Link href="/gallery" className="group flex items-center gap-2 text-[var(--primary-light)] font-medium hover:text-[var(--primary)] transition-colors">
-            GALLERY_BUTTON_TEXT
+            View the Gallery
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Link>
         </div>
@@ -30,7 +29,8 @@ export function GalleryPreview() {
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {previewItems.map((item) => (
-            <div
+            <Link
+              href="/gallery"
               key={item.id}
               className="group relative overflow-hidden rounded-2xl aspect-[4/3] bg-[var(--bg-card)] border border-white/[0.06] cursor-pointer"
             >
@@ -68,7 +68,7 @@ export function GalleryPreview() {
               <div className="absolute top-4 right-4 px-3 py-1 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-white text-xs font-medium">
                 Before & After
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

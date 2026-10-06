@@ -5,40 +5,22 @@ import { ArrowRight } from "lucide-react";
 
 const applications = [
   {
-    title: "APPLICATION_1_TITLE",
-    description: "APPLICATION_1_DESCRIPTION",
-    image: "APPLICATION_1_IMAGE",
-    href: "/gallery?filter=application1",
+    title: "Floor Finishes",
+    description: "A seamless finish over self-level screed or prepared tiles.",
+    image: "/images/gallery/elephant-skin-after.jpg",
+    href: "/gallery",
   },
   {
-    title: "APPLICATION_2_TITLE",
-    description: "APPLICATION_2_DESCRIPTION",
-    image: "APPLICATION_2_IMAGE",
-    href: "/gallery?filter=application2",
+    title: "Walls & Ceilings",
+    description: "Choose a raw, colour-sealed or polyurethane-sealed finish.",
+    image: "/images/colours/beach.jpg",
+    href: "/colours",
   },
   {
-    title: "APPLICATION_3_TITLE",
-    description: "APPLICATION_3_DESCRIPTION",
-    image: "APPLICATION_3_IMAGE",
-    href: "/gallery?filter=application3",
-  },
-  {
-    title: "APPLICATION_4_TITLE",
-    description: "APPLICATION_4_DESCRIPTION",
-    image: "APPLICATION_4_IMAGE",
-    href: "/gallery?filter=application4",
-  },
-  {
-    title: "APPLICATION_5_TITLE",
-    description: "APPLICATION_5_DESCRIPTION",
-    image: "APPLICATION_5_IMAGE",
-    href: "/gallery?filter=application5",
-  },
-  {
-    title: "APPLICATION_6_TITLE",
-    description: "APPLICATION_6_DESCRIPTION",
-    image: "APPLICATION_6_IMAGE",
-    href: "/gallery?filter=application6",
+    title: "Table Tops",
+    description: "Explore colours and discuss the preparation for your surface.",
+    image: "/images/colours/mushroom.jpg",
+    href: "/contact",
   },
 ];
 
@@ -49,10 +31,10 @@ export function Applications() {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            APPLICATIONS_SECTION_TITLE
+            From Floor to Ceiling
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            APPLICATIONS_SECTION_SUBTITLE
+            Explore the surfaces that can be finished with Covercrete.
           </p>
         </div>
 
@@ -88,7 +70,7 @@ export function Applications() {
                   {app.description}
                 </p>
                 <div className="flex items-center gap-2 text-[var(--primary-light)] text-sm font-medium opacity-0 group-hover:opacity-100 transition-opacity">
-                  View Projects
+                  Explore Options
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
               </div>

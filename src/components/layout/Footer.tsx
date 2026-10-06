@@ -43,20 +43,20 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <a
-                href="https://facebook.com"
+                href="https://facebook.com/profile.php?id=100092422357789"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-white/[0.05] text-[var(--text-secondary)] hover:bg-[var(--primary)] hover:text-white transition-colors"
               >
-                <Facebook className="h-5 w-5" />
+                <Facebook aria-label="Covercrete on Facebook" className="h-5 w-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/cover.crete"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-2 rounded-lg bg-white/[0.05] text-[var(--text-secondary)] hover:bg-[var(--primary)] hover:text-white transition-colors"
               >
-                <Instagram className="h-5 w-5" />
+                <Instagram aria-label="Covercrete on Instagram" className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -132,7 +132,7 @@ export function Footer() {
                   <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" />
                   <div>
                     <div>Gauteng • Cape Town • KZN</div>
-                    <div className="text-xs mt-1">Factory: North West Province</div>
+                    <div className="text-xs mt-1">Made to order in our factory</div>
                   </div>
                 </div>
               </li>
