@@ -7,19 +7,19 @@ const applications = [
   {
     title: "Floor Finishes",
     description: "A seamless finish over self-level screed or prepared tiles.",
-    image: "/images/gallery/elephant-skin-after.jpg",
+    image: "/concept/detail.svg",
     href: "/gallery",
   },
   {
     title: "Walls & Ceilings",
     description: "Choose a raw, colour-sealed or polyurethane-sealed finish.",
-    image: "/images/colours/beach.jpg",
+    image: "/concept/texture.svg",
     href: "/colours",
   },
   {
     title: "Table Tops",
     description: "Explore colours and discuss the preparation for your surface.",
-    image: "/images/colours/mushroom.jpg",
+    image: "/concept/texture.svg",
     href: "/contact",
   },
 ];
@@ -34,7 +34,7 @@ export function Applications() {
             From Floor to Ceiling
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            Explore the surfaces that can be finished with Covercrete.
+            Explore the surfaces that can be finished with Mineralis.
           </p>
         </div>
 

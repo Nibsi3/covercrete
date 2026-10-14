@@ -12,13 +12,13 @@ export interface GalleryItem {
 export const galleryItems: GalleryItem[] = [
   {
     id: "1",
-    title: "Elephant Skin Floor Transformation",
+    title: "Elephant Skin Floor Study",
     location: "",
     colour: "Elephant Skin",
     application: "floor",
-    beforeImage: "/images/gallery/elephant-skin-before.jpg",
-    afterImage: "/images/gallery/elephant-skin-after.jpg",
-    description: "Before and after views of the Elephant Skin floor finish.",
+    beforeImage: "/concept/detail.svg",
+    afterImage: "/concept/detail.svg",
+    description: "Original concept illustrations of the Elephant Skin floor finish.",
   },
   {
     id: "2",
@@ -26,9 +26,9 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Beach",
     application: "floor",
-    beforeImage: "/images/gallery/beach-before.jpg",
-    afterImage: "/images/gallery/beach-after.jpg",
-    description: "Before and after views of the Beach finish.",
+    beforeImage: "/concept/detail.svg",
+    afterImage: "/concept/detail.svg",
+    description: "Original concept illustrations of the Beach finish.",
   },
   {
     id: "3",
@@ -36,9 +36,9 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Mushroom",
     application: "floor",
-    beforeImage: "/images/gallery/mushroom-before.jpg",
-    afterImage: "/images/gallery/mushroom-after.jpg",
-    description: "Before and after views of the Mushroom finish.",
+    beforeImage: "/concept/detail.svg",
+    afterImage: "/concept/detail.svg",
+    description: "Original concept illustrations of the Mushroom finish.",
   },
   {
     id: "4",
@@ -46,9 +46,9 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Elephant Skin",
     application: "bathroom",
-    beforeImage: "/images/gallery/before-elephant.jpg",
-    afterImage: "/images/gallery/after-elephant.jpg",
-    description: "Before and after views of the Elephant Skin bathroom finish.",
+    beforeImage: "/concept/detail.svg",
+    afterImage: "/concept/detail.svg",
+    description: "Original concept illustrations of the Elephant Skin bathroom finish.",
   },
 ];
 

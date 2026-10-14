@@ -38,7 +38,7 @@ export function HowItWorks() {
             Plan Your Transformation
           </h2>
           <p className="text-lg text-[var(--text-secondary)] max-w-2xl mx-auto">
-            Start with your surface and finish requirements, then confirm the details with Covercrete.
+            Start with your surface and finish requirements, then confirm the details with Mineralis.
           </p>
         </div>
 

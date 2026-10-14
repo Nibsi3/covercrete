@@ -8,7 +8,7 @@ import { ArrowRight } from "lucide-react";
 export const metadata: Metadata = {
   title: "Colour Options",
   description:
-    "Explore our range of 14+ Covercrete colour options. From crisp whites to deep charcoals, find the perfect finish for your space.",
+    "Explore our range of 14+ Mineralis colour options. From crisp whites to deep charcoals, find the perfect finish for your space.",
 };
 
 export default function ColoursPage() {

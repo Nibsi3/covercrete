@@ -108,3 +108,6 @@ body {
   background: var(--primary);
   color: white;
 }
+
+/* Honest project provenance and keyboard access across every concept route. */
+.concept-notice{padding:28px max(24px,calc((100vw - 1280px)/2));background:#151515;color:#ddd;font-size:14px;line-height:1.7;border-top:1px solid #444}.concept-notice strong{display:block;color:#fff}.concept-notice a{display:inline-block;margin:12px 0 0;color:#f5d49c;text-decoration:underline}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #eac78e;outline-offset:5px}img{max-width:100%}

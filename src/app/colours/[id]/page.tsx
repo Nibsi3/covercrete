@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${colour.name} - Covercrete Colour`,
+    title: `${colour.name} - Mineralis Colour`,
     description: colour.description,
   };
 }
@@ -177,16 +177,16 @@ export default async function ColourDetailPage({ params }: Props) {
                   href={`/contact?colour=${colour.id}`}
                   className="flex-1 flex items-center justify-center gap-2 bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white px-6 py-4 rounded-xl font-medium hover:shadow-[0_10px_30px_var(--accent-glow)] transition-all"
                 >
-                  Get a Quote for {colour.name}
+                  Try Demo Enquiry for {colour.name}
                 </Link>
                 <a
-                  href={`https://wa.me/27725861495?text=Hi%2C%20I%27m%20interested%20in%20the%20${encodeURIComponent(colour.name)}%20colour`}
+                  href={`/concept`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 bg-white/[0.05] border border-white/[0.1] text-white px-6 py-4 rounded-xl font-medium hover:bg-white/[0.1] transition-all"
                 >
                   <MessageCircle className="h-5 w-5" />
-                  WhatsApp
+                  Concept details
                 </a>
               </div>
             </div>

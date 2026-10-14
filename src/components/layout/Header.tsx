@@ -32,8 +32,8 @@ export function Header() {
             className="transition-transform duration-700 ease-[cubic-bezier(.22,1,.36,1)] group-hover:-translate-x-4"
           >
             <Image
-              src="/images/logo_white.png"
-              alt="Covercrete"
+              src="/concept/logo.svg"
+              alt="Mineralis"
               width={140}
               height={40}
               className="h-8 w-auto object-contain"
@@ -61,7 +61,7 @@ export function Header() {
             href="/contact"
             className="bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white px-5 py-2.5 rounded-full text-sm font-medium whitespace-nowrap transition-[transform,box-shadow] duration-700 ease-[cubic-bezier(.22,1,.36,1)] hover:shadow-[0_10px_30px_var(--accent-glow)] group-hover:translate-x-4"
           >
-            Get a Quote
+            Try Demo Enquiry
           </Link>
         </div>
       </nav>
@@ -70,8 +70,8 @@ export function Header() {
       <div className="lg:hidden flex items-center justify-between bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-full px-5 py-3">
         <Link href="/">
           <Image
-            src="/images/logo_white.png"
-            alt="Covercrete"
+            src="/concept/logo.svg"
+            alt="Mineralis"
             width={120}
             height={35}
             className="h-7 w-auto object-contain"
@@ -79,6 +79,7 @@ export function Header() {
           />
         </Link>
         <button
+          aria-label="Toggle menu" aria-expanded={isMobileMenuOpen}
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           className="text-white p-1"
         >
@@ -120,7 +121,7 @@ export function Header() {
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block w-full text-center bg-gradient-to-r from-[var(--primary)] to-[var(--primary-light)] text-white py-3 rounded-xl font-medium"
               >
-                Get a Quote
+                Try Demo Enquiry
               </Link>
             </div>
           </div>

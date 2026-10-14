@@ -30,7 +30,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex flex-col mb-6">
               <span className="text-2xl font-bold tracking-tight text-white">
-                COVERCRETE
+                Mineralis
               </span>
               <span className="text-xs tracking-widest uppercase text-[var(--text-muted)]">
                 Decorative Finishes
@@ -42,22 +42,8 @@ export function Footer() {
               solutions.
             </p>
             <div className="flex gap-4">
-              <a
-                href="https://facebook.com/profile.php?id=100092422357789"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-lg bg-white/[0.05] text-[var(--text-secondary)] hover:bg-[var(--primary)] hover:text-white transition-colors"
-              >
-                <Facebook aria-label="Covercrete on Facebook" className="h-5 w-5" />
-              </a>
-              <a
-                href="https://instagram.com/cover.crete"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="p-2 rounded-lg bg-white/[0.05] text-[var(--text-secondary)] hover:bg-[var(--primary)] hover:text-white transition-colors"
-              >
-                <Instagram aria-label="Covercrete on Instagram" className="h-5 w-5" />
-              </a>
+              
+              
             </div>
           </div>
 
@@ -107,32 +93,32 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="tel:+27725861495"
+                  href="/concept"
                   className="flex items-start gap-3 text-[var(--text-secondary)] hover:text-white transition-colors text-sm"
                 >
                   <Phone className="h-5 w-5 flex-shrink-0 mt-0.5" />
                   <div>
-                    <div>Ryan: 072 586 1495</div>
-                    <div>Hein: 071 307 3631</div>
-                    <div>Aaron (WC): 063 943 4661</div>
+                    <div>Fictional brand</div>
+                    <div>Independent design study</div>
+                    <div>No business contact service</div>
                   </div>
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:info@covercrete.co.za"
+                  href="/concept"
                   className="flex items-center gap-3 text-[var(--text-secondary)] hover:text-white transition-colors text-sm"
                 >
                   <Mail className="h-5 w-5 flex-shrink-0" />
-                  <span>info@covercrete.co.za</span>
+                  <span>Local demo only</span>
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-3 text-[var(--text-secondary)] text-sm">
                   <MapPin className="h-5 w-5 flex-shrink-0 mt-0.5" />
                   <div>
-                    <div>Gauteng • Cape Town • KZN</div>
-                    <div className="text-xs mt-1">Made to order in our factory</div>
+                    <div>Design exploration</div>
+                    <div className="text-xs mt-1">Original concept illustrations</div>
                   </div>
                 </div>
               </li>
@@ -144,7 +130,7 @@ export function Footer() {
         <div className="mt-12 pt-8 border-t border-white/[0.06]">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-[var(--text-muted)] text-sm">
-              © {new Date().getFullYear()} Covercrete. All rights reserved.
+              © {new Date().getFullYear()} Mineralis. Independent concept design.
             </p>
             <div className="flex gap-6">
               <Link

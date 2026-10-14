@@ -12,15 +12,14 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://covercrete.vercel.app"),
+  metadataBase: new URL("https://mineralis-concept.cameronfalck03.workers.dev"),
   title: {
-    default: "Covercrete | Premium Decorative Concrete Finishes in South Africa",
-    template: "%s | Covercrete",
+    default: "Mineralis | Independent Website Concept",
+    template: "%s | Mineralis",
   },
-  description:
-    "Transform your floors, walls, and surfaces with Covercrete's seamless cementitious screed finishes. Durable, modern decorative concrete solutions. Serving Gauteng, Cape Town & KZN.",
+  description: "Mineralis is an independent website concept for a fictional decorative concrete finishes brand. Designed by Pixaloom; no commissioned client, sales or services.",
   keywords: [
-    "Covercrete",
+    "Mineralis",
     "decorative concrete",
     "concrete finishes",
     "cementitious screed",
@@ -31,34 +30,34 @@ export const metadata: Metadata = {
     "Cape Town",
     "KZN",
   ],
-  authors: [{ name: "Covercrete" }],
-  creator: "Covercrete",
+  authors: [{ name: "Mineralis" }],
+  creator: "Mineralis",
   openGraph: {
     type: "website",
     locale: "en_ZA",
-    url: "https://covercrete.co.za",
-    siteName: "Covercrete",
-    title: "Covercrete | Premium Decorative Concrete Finishes",
+    url: "https://mineralis-concept.cameronfalck03.workers.dev",
+    siteName: "Mineralis",
+    title: "Mineralis | Independent Website Concept",
     description:
       "Transform your floors, walls, and surfaces with seamless cementitious screed finishes. Serving Gauteng, Cape Town & KZN.",
     images: [
       {
-        url: "/images/gallery/elephant-skin-after.jpg",
+        url: "/concept/detail.svg",
         width: 1200,
         height: 630,
-        alt: "Covercrete Decorative Concrete Finishes",
+        alt: "Mineralis Decorative Concrete Finishes",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Covercrete | Premium Decorative Concrete Finishes",
+    title: "Mineralis | Independent Website Concept",
     description:
       "Transform your floors, walls, and surfaces with seamless cementitious screed finishes.",
-    images: ["/images/gallery/elephant-skin-after.jpg"],
+    images: ["/concept/detail.svg"],
   },
   robots: {
-    index: true,
+    index: false,
     follow: true,
   },
 };
@@ -77,6 +76,7 @@ export default function RootLayout({
       <body className={`${inter.variable} antialiased`}>
         <Header />
         <main className="pb-16 lg:pb-0">{children}</main>
+        <aside className="concept-notice" aria-label="Independent concept disclosure"><strong>Mineralis · Independent concept design</strong><span> Fictional brand, created by Pixaloom as a self-initiated portfolio study. No commissioned client or trading business. Prices, specifications and service content are illustrative. Forms are local demos and send nothing.</span><a href="/concept">About this concept</a></aside>
         <Footer />
         <MobileCTA />
       </body>

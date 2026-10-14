@@ -6,7 +6,7 @@ import { ArrowRight, Play } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[var(--bg)]">
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-[var(--bg)]">
       {/* Animated gradient orbs */}
       <div className="absolute top-1/4 -left-32 w-96 h-96 bg-[var(--primary)]/20 rounded-full blur-[128px] animate-pulse" />
       <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-[var(--accent)]/15 rounded-full blur-[128px] animate-pulse delay-1000" />
@@ -20,7 +20,7 @@ export function Hero() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--primary)]/10 border border-[var(--primary)]/20 mb-8">
             <span className="w-2 h-2 rounded-full bg-[var(--primary)] animate-pulse" />
-            <span className="text-sm text-[var(--primary-light)] font-medium">Made-to-order cementitious finishes</span>
+            <span className="text-sm text-[var(--primary-light)] font-medium">Independent decorative finishes concept</span>
           </div>
 
           {/* Headline */}
@@ -60,6 +60,7 @@ export function Hero() {
         </div>
       </div>
 
+      <div className="relative w-full max-w-5xl mx-auto px-6 pb-20"><img src="/concept/hero.svg" alt="Original Mineralis concept illustration of an imagined concrete interior" className="w-full rounded-3xl" /></div>
       {/* Bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[var(--bg)] to-transparent" />
     </section>

@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 export const metadata: Metadata = {
   title: "Tools",
   description:
-    "Covercrete tools list. Please contact us to enquire about the latest tool pricing and availability.",
+    "Mineralis tools list. Please contact us to enquire about the latest tool pricing and availability.",
 };
 
 const tools = [
@@ -53,12 +53,12 @@ export default function ToolsPage() {
                 <Button size="lg">Contact for Tool Pricing</Button>
               </Link>
               <a
-                href="https://wa.me/27725861495?text=Hi%2C%20please%20send%20me%20your%20latest%20tool%20pricing"
+                href="/concept"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Button size="lg" variant="outline">
-                  WhatsApp Us
+                  About This Concept
                 </Button>
               </a>
             </div>

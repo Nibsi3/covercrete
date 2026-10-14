@@ -24,7 +24,7 @@ const usps = [
   {
     icon: Clock,
     title: "Made to Order",
-    description: "Covercrete is prepared to order in the factory for your project.",
+    description: "Mineralis is prepared to order in the factory for your project.",
   },
   {
     icon: Sparkles,

@@ -7,7 +7,7 @@ import { ArrowRight, Check, Info } from "lucide-react";
 export const metadata: Metadata = {
   title: "Pricing Guide",
   description:
-    "Covercrete pricing guide. Installation over tiles from R540-R590 per m² (ex VAT). Installation over smooth surfaces from R420-R475 per m² (ex VAT). DIY kits from R1,060 (incl VAT).",
+    "Mineralis pricing guide. Installation over tiles from R540-R590 per m² (ex VAT). Installation over smooth surfaces from R420-R475 per m² (ex VAT). DIY kits from R1,060 (incl VAT).",
 };
 
 const installationPricing = [
@@ -483,7 +483,7 @@ export default function PricingPage() {
             Get an Accurate Quote
           </h2>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
-            Every project is unique. Share your details with Covercrete to
+            Every project is unique. Share your details with Mineralis to
             discuss a quote based on your surface and preparation requirements.
           </p>
           <Link href="/contact">

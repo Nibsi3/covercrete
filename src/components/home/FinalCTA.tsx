@@ -15,7 +15,7 @@ export function FinalCTA() {
             Bring Your Space to Life
           </h2>
           <p className="text-xl text-[var(--text-secondary)] max-w-2xl mx-auto mb-10">
-            Talk to Covercrete about your surface, colour and installation requirements.
+            Talk to Mineralis about your surface, colour and installation requirements.
           </p>
 
           {/* CTAs */}
@@ -28,29 +28,29 @@ export function FinalCTA() {
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </Link>
             <a
-              href="https://wa.me/27725861495?text=Hi%2C%20I%27m%20interested%20in%20Covercrete%20finishes"
+              href="/concept"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 bg-white/[0.05] border border-white/[0.1] text-white px-8 py-4 rounded-full text-lg font-medium transition-all hover:bg-white/[0.1]"
             >
               <MessageCircle className="h-5 w-5" />
-              Chat on WhatsApp
+              Chat on Concept details
             </a>
           </div>
 
           {/* Contact info */}
           <div className="flex flex-wrap items-center justify-center gap-8 text-[var(--text-muted)]">
-            <a href="tel:+27725861495" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="/concept" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span>Ryan: 072 586 1495</span>
+              <span>Ryan: Demo only</span>
             </a>
-            <a href="tel:+27713073631" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="/concept" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span>Hein: 071 307 3631</span>
+              <span>Hein: Demo only</span>
             </a>
-            <a href="tel:+27639434661" className="flex items-center gap-2 hover:text-white transition-colors">
+            <a href="/concept" className="flex items-center gap-2 hover:text-white transition-colors">
               <Phone className="h-5 w-5" />
-              <span>Aaron (Western Cape): 063 943 4661</span>
+              <span>Aaron (Western Cape): Demo only</span>
             </a>
           </div>
         </div>
