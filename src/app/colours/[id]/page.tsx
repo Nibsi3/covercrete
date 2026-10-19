@@ -75,7 +75,7 @@ export default async function ColourDetailPage({ params }: Props) {
                   src={colour.image}
                   alt={colour.name}
                   fill
-                  className="object-cover"
+                  className="object-cover origin-top-left scale-[3]"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   priority
                 />

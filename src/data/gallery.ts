@@ -16,8 +16,8 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Elephant Skin",
     application: "floor",
-    beforeImage: "/concept/detail.svg",
-    afterImage: "/concept/detail.svg",
+    beforeImage: "/images/gallery/elephant-skin-before.jpg",
+    afterImage: "/images/gallery/elephant-skin-after.jpg",
     description: "Original concept illustrations of the Elephant Skin floor finish.",
   },
   {
@@ -26,8 +26,8 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Beach",
     application: "floor",
-    beforeImage: "/concept/detail.svg",
-    afterImage: "/concept/detail.svg",
+    beforeImage: "/images/gallery/beach-before.jpg",
+    afterImage: "/images/gallery/beach-after.jpg",
     description: "Original concept illustrations of the Beach finish.",
   },
   {
@@ -36,8 +36,8 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Mushroom",
     application: "floor",
-    beforeImage: "/concept/detail.svg",
-    afterImage: "/concept/detail.svg",
+    beforeImage: "/images/gallery/mushroom-before.jpg",
+    afterImage: "/images/gallery/mushroom-after.jpg",
     description: "Original concept illustrations of the Mushroom finish.",
   },
   {
@@ -46,8 +46,8 @@ export const galleryItems: GalleryItem[] = [
     location: "",
     colour: "Elephant Skin",
     application: "bathroom",
-    beforeImage: "/concept/detail.svg",
-    afterImage: "/concept/detail.svg",
+    beforeImage: "/images/gallery/before-elephant.jpg",
+    afterImage: "/images/gallery/after-elephant.jpg",
     description: "Original concept illustrations of the Elephant Skin bathroom finish.",
   },
 ];

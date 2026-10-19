@@ -42,7 +42,7 @@ export const metadata: Metadata = {
       "Transform your floors, walls, and surfaces with seamless cementitious screed finishes. Serving Gauteng, Cape Town & KZN.",
     images: [
       {
-        url: "/concept/detail.svg",
+        url: "/images/gallery/elephant-skin-after.jpg",
         width: 1200,
         height: 630,
         alt: "Mineralis Decorative Concrete Finishes",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "Mineralis | Independent Website Concept",
     description:
       "Transform your floors, walls, and surfaces with seamless cementitious screed finishes.",
-    images: ["/concept/detail.svg"],
+    images: ["/images/gallery/elephant-skin-after.jpg"],
   },
   robots: {
     index: false,

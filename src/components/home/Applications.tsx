@@ -7,19 +7,19 @@ const applications = [
   {
     title: "Floor Finishes",
     description: "A seamless finish over self-level screed or prepared tiles.",
-    image: "/concept/detail.svg",
+    image: "/images/gallery/elephant-skin-after.jpg",
     href: "/gallery",
   },
   {
     title: "Walls & Ceilings",
     description: "Choose a raw, colour-sealed or polyurethane-sealed finish.",
-    image: "/concept/texture.svg",
+    image: "/images/colours/beach.jpg",
     href: "/colours",
   },
   {
     title: "Table Tops",
     description: "Explore colours and discuss the preparation for your surface.",
-    image: "/concept/texture.svg",
+    image: "/images/colours/mushroom.jpg",
     href: "/contact",
   },
 ];
@@ -57,10 +57,10 @@ export function Applications() {
 
               {/* Image tint */}
               <div className="absolute inset-0 bg-black/25" />
-              
+
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent" />
-              
+
               {/* Content */}
               <div className="absolute inset-0 p-6 flex flex-col justify-end">
                 <h3 className="text-xl font-semibold text-white mb-2 group-hover:text-[var(--primary-light)] transition-colors">
